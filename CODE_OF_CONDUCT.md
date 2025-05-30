@@ -1,84 +1,96 @@
-# 📜 Awesome Test Vault – Code of Conduct
+# 📜 VaultOS – Code of Conduct
 
-Welcome to the Awesome Test Vault! 🎉  
-This space is a digital playground for learning, creativity, experimentation, and structured knowledge growth.
+Welcome to the **VaultOS** community! 🧠⚙️  
+This project powers modular plugin orchestration for Obsidian — built with love, curiosity, and the spirit of creative tooling.
 
-To keep this environment supportive and inspiring, all participants are expected to follow this Code of Conduct.
+To maintain a healthy, respectful, and productive space, all contributors and participants are expected to abide by this Code of Conduct.
 
 ---
 
 ## 🌟 The PtiCalin Pledge
 
-PtiCalin, members, contributors, and leaders of the Awesome Test Vault pledge to make participation a harassment-free experience for everyone — regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We — the creators, maintainers, contributors, and members of the **VaultOS** project — pledge to foster an inclusive, welcoming environment where all individuals feel respected and safe regardless of:
 
-This pledge is a commitment to fostering an open, welcoming, diverse, inclusive, and healthy creative space — upheld by the spirit of PtiCalin and the Vault community.
+> 🏳️‍🌈 Gender, 🧬 Identity, 🎨 Expression, 🧓 Age, 💬 Language, 🌍 Nationality, ✨ Neurodiversity, 🧘‍♀️ Body, 🙏 Beliefs, 🎓 Experience, or ❤️ Love.
 
----
-
-## 🛠️ Standards for Interaction
-
-The Vault encourages:
-
-- Curiosity and playfulness  
-- Kind and respectful communication  
-- Empathy toward different experiences and learning journeys  
-- Thoughtful, constructive feedback  
-- Celebrating questions, ideas, and experiments  
-- Acknowledging mistakes and learning from them  
-- Contributing to a structured, flourishing environment
-
-The Vault does not tolerate:
-
-- Sexualized language, imagery, or advances of any kind  
-- Trolling, insults, or derogatory comments  
-- Public or private harassment  
-- Publishing others' private information without explicit consent  
-- Sustained disruption of community activities  
-- Any behavior that could reasonably be considered inappropriate in a professional or creative learning environment
+We are committed to ensuring that **VaultOS remains a space for empowerment, learning, play, and open collaboration**.
 
 ---
 
-## ⚖️ Responsibilities of Moderation
+## 🛠️ Our Standards for Participation
 
-Community leaders are entrusted with clarifying standards and enforcing this Code of Conduct fairly and respectfully.
+We celebrate:
 
-They may remove comments, contributions, commits, issues, or other interactions that violate these standards. When appropriate, moderation decisions will be explained to preserve transparency.
+- 🧠 Open learning and asking questions  
+- 💬 Clear, thoughtful communication  
+- 🧰 Sharing ideas, snippets, and scaffolds  
+- 🎉 Celebrating creativity and breakthroughs  
+- ✨ Offering kind, actionable feedback  
+- 🔄 Iteration as part of growth  
+- 💞 Respect for others’ time, energy, and perspectives
 
----
+We do **not tolerate**:
 
-## 🧭 Scope of Application
-
-This Code of Conduct applies to all official Awesome Test Vault spaces — including the [GitHub repository](https://github.com/PtiCalin/Awesome-Test-Vault), issues, pull requests, project boards, discussions, and any other channels directly associated with the Vault.
-
-It also applies to public representations of the project, including communications from official accounts or during online/offline events.
-
----
-
-## 🚨 Reporting and Enforcement
-
-Concerns about behavior, safety, or conduct may be reported through the following channels:
-
-- Submit a [confidential GitHub Issue](https://github.com/PtiCalin/Awesome-Test-Vault/issues/new/choose)  
-- Contact a maintainer directly via the GitHub "Contact" button on the repository
-
-Public disclosure of violations without prior notice to maintainers is discouraged. All reports will be reviewed confidentially and with respect for all involved.
-
-### 🧭 Community Impact Guidelines
-
-Consequences for violations may include:
-
-1. **Correction** – Private clarification of inappropriate behavior  
-2. **Warning** – Warning with clearly defined expectations moving forward  
-3. **Temporary Ban** – Suspension from public interaction with the community  
-4. **Permanent Ban** – Permanent removal from all Vault-related participation
+- 🚫 Disrespect, intimidation, or exclusionary behavior  
+- 💢 Trolling, harassment, or personal attacks  
+- 🛑 Unwelcome sexual attention or imagery  
+- 🕵️‍♂️ Sharing private content without consent  
+- ⚠️ Persistent disruption of conversation or collaboration  
+- ❌ Gatekeeping or devaluing others' contributions
 
 ---
 
-## 🙌 Attribution
+## ⚖️ Moderation Responsibilities
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html), version 2.0.
+Project maintainers are responsible for upholding these standards and will:
 
-Community Impact Guidelines are inspired by Mozilla’s enforcement framework.
+- Monitor community interactions  
+- Remove or reject contributions that violate this Code  
+- Provide clear, constructive moderation decisions  
+- Act with integrity, fairness, and consistency
 
-Translations and additional resources are available via the [Contributor Covenant FAQ](https://www.contributor-covenant.org/faq)  
-and [translations page](https://www.contributor-covenant.org/translations).
+---
+
+## 🧭 Where This Applies
+
+This Code of Conduct applies to all VaultOS project spaces, including but not limited to:
+
+- GitHub Issues, Discussions, Pull Requests, and Comments  
+- Git commits and messages  
+- Community channels (e.g., [PtiCalin Discord](https://discord.gg/dX8ZPDrN))  
+- External events or representation under the VaultOS brand
+
+---
+
+## 🚨 Reporting Concerns
+
+If you witness or experience behavior that violates this Code, you may:
+
+- Open a confidential GitHub issue  
+- Reach out to a maintainer through the project's GitHub page  
+- Contact via the [PtiCalin Discord](https://discord.gg/dX8ZPDrN)
+
+All reports will be handled privately, respectfully, and in alignment with this Code’s intentions.
+
+---
+
+## 🧭 Consequence Spectrum
+
+The VaultOS moderation team may take one or more of the following actions depending on severity and context:
+
+1. **Gentle Correction** – Clarify the behavior and encourage better practices  
+2. **Warning** – A formal request to cease the behavior  
+3. **Temporary Suspension** – Access to project participation is paused  
+4. **Permanent Removal** – Full exclusion from VaultOS repositories and community
+
+---
+
+## 🙌 Credits & Licensing
+
+This Code is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) v2.0  
+With inspiration from Mozilla’s Community Impact Guidelines and Obsidian community values.
+
+---
+
+We’re building more than a plugin — we’re crafting a culture of curiosity, creativity, and care.  
+Thank you for helping make VaultOS a brilliant space to learn and build together. 🚀
