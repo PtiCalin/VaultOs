@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Awesome-Test-Vault"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c469e394b4c19b17",
+    "type": "split",
+    "children": [
+      {
+        "id": "06b0f0286b37b1df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75cbba21a196a498",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f145686c89db2591",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"questline\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "85078b5058c38cc5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1c41872f7a937119",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f7b7999b8f4db7f",
+        "type": "tabs",
+        "dimension": 39.989321943406296,
+        "children": [
+          {
+            "id": "658abe1fadbaddc4",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Awesome-Test-Vault.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Awesome-Test-Vault"
+            }
+          },
+          {
+            "id": "af67915e41f92a30",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for VaultOS build checklist"
+            }
+          }
+        ]
+      },
+      {
+        "id": "423db17587e32800",
+        "type": "tabs",
+        "dimension": 28.990923651895358,
+        "children": [
+          {
+            "id": "5ee762c31198e69d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Awesome-Test-Vault"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a32adf230263a07f",
+        "type": "tabs",
+        "dimension": 31.019754404698347,
+        "children": [
+          {
+            "id": "2638d89ed8ad4711",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Awesome-Test-Vault"
+            }
+          },
+          {
+            "id": "b6db13eb4ce23bce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "VaultOS build checklist"
+            }
+          },
+          {
+            "id": "2da93e5f71b5c1b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6241e2c3304bbbed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "homepage:Open homepage": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Testing.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Documentation.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Development.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Configuration Notes.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Compatibility.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin API.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Enabled Plugins.md",
+    "VAULT/System/Middleware/Obsidian/Plugins",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault.config.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault-map.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/variables.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/tsconfig.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/styles.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/snippets.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/rollup.config.js",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/plugin_config.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/package.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/module_registry.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/LICENSE.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/README.md",
+    "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/universal-template/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/yaml-assistant/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/skill-tree/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/progress-tracker/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/nuggets/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/museum/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/media-sorting/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/game-tools/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/folder-dashboard/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/block-inserter/README.md",
+    "VAULT/System/Frontend/Templates/Obsidian/image.png",
+    "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
+    "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
+    "VAULT/Files and Media/Images/Vault Overview/vault-map.png",
+    "Untitled.canvas",
+    "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/OIP (2).jpg",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Structure.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Values.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Launch_v2.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Launch_v1.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Templates System_v2.png"
+  ]
+}

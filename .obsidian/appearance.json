@@ -1,0 +1,20 @@
+{
+  "enabledCssSnippets": [
+    "bg_animation",
+    "bg_mouse_follow",
+    "snippets",
+    "variables",
+    "vault-map",
+    "vaultos-callout-snippets",
+    "vaultos-vault-style",
+    "animations",
+    "img-maps",
+    "vault-style",
+    "vaultos-fonts"
+  ],
+  "accentColor": "#9f5b69",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSize": 14,
+  "monospaceFontFamily": ""
+}
