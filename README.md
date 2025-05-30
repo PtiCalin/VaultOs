@@ -1,119 +1,94 @@
-# 🧠 Awesome Test Vault
+# 🧠 VaultOS – Plugin for Obsidian
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=appveyor&logoColor=white&theme=calm)](./LICENSE.md)
-[![Content License: CC-BY-4.0](https://img.shields.io/badge/Content%20License-CC--BY%204.0-lightgrey?style=flat&logo=creative-commons&theme=calm)](./LICENSE_CONTENT.md)
-[![Built with Obsidian](https://img.shields.io/badge/Built%20With-Obsidian-blueviolet?style=flat&logo=obsidian&logoColor=white&theme=calm)](https://obsidian.md)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat&theme=calm)](./CONTRIBUTING.md)
-[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/pticalindop)
+> VaultOS is a modular plugin orchestration system for [Obsidian](https://obsidian.md) – designed to manage, compile, and control an ecosystem of VaultOS-powered subplugins right from your vault.
 
-_A second brain, learning lab, and digital playground — built with Obsidian._
-
----
-
-Welcome to the **Awesome Test Vault** – a modular, Obsidian-based system designed to empower learning, thinking, questing, and digital gardening.
-
-This vault is an evolving knowledge infrastructure. Part digital playground, part memory palace – all tailored for structured growth.
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
+[![Built with Obsidian](https://img.shields.io/badge/Built%20With-Obsidian-blueviolet?style=flat-square)](https://obsidian.md)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](./manifest.json)
+[![Made by PtiCalin](https://img.shields.io/badge/Made%20by-PtiCalin-8a2be2?style=flat-square)](https://github.com/PtiCalin)
 
 ---
 
-## 📂 Vault Structure Overview
+### ✨ What is VaultOS?
 
-The vault is organized into core directories, each with modular substructures:
+VaultOS is the beating heart of a modular dev environment inside Obsidian. It watches your plugin folder, auto-registers and compiles VaultOS submodules, and provides an elegant control panel for managing your extended vault OS.
 
-```txt
-Notes/
-    Personal Encyclopedia/
-    Daily Notes/
-    Projects/
-    People/
-    Calendar/
+Whether you're building a single subplugin or orchestrating dozens, VaultOS gives you a solid foundation.
 
-Learnings/
-    00 Setup/
-    01 File Management and Terminal/
-    ...
-    
-Files and Media/
-    Audio/
-    Video/
-    Documents/
+---
 
-System/
-    Dashboards/
-    Templates/
-    Logs/
-    Plugins/
-    Automations/
-    Frontend/
-    Backend/
+### 🔧 Core Features
+
+- 🧩 **Auto-detect `vaultos_*` folders** and treat them as managed subplugins
+- ⚙️ **Subplugin scaffolder** to generate all required files and folders
+- 📦 **Converter, Relocator, Validator, and Compilator** utilities to streamline module deployment
+- 💾 **Module metadata cache** for tracking status, structure, and logs
+- 🪟 **VaultOS UI Panel** inside Obsidian's workspace (left or right dock)
+- 📁 **Manifest builder** for compiling subplugin metadata into the main manifest
+- 📑 **Logging system** to track plugin events and actions
+
+---
+
+### 📁 Folder Structure
+
+```
+vaultos/
+├── main.ts                # The plugin entry point
+├── src/
+│   ├── core/              # Watcher, logger, cache, UI panel view
+│   ├── modules/           # Module manager and subplugin scaffolder
+│   ├── ops/               # Converter, validator, relocator, compiler
+│   └── templates/         # Handlebars scaffolding templates
+├── dist/                  # Finalized plugin builds and JSON configs
+├── data/                  # Cache, logs, backups
+└── config/                # vaultos_config_extended.json and variants
 ```
 
-Each folder includes a dashboard or entry `.md` file with smart YAML, backlinks, and visual routing potential (Canvas).
+---
+
+### 📦 Getting Started
+
+```bash
+# 1. Clone this repo into your Obsidian vault plugin folder
+cd .obsidian/plugins
+git clone https://github.com/PtiCalin/vaultos
+
+# 2. Install dependencies
+cd vaultos
+npm install
+
+# 3. Build plugin
+npm run build
+
+# 4. Reload Obsidian – VaultOS will boot automatically ✨
+```
 
 ---
 
-## 🧱 Development Phase: Foundation & Seeding
+### 🚀 Powered By
 
-This repo is currently in **Foundation Phase**. Core infrastructure is in place:
-
-- ✅ Automated folder generation (via bash scripts)
-- ✅ YAML-rich dashboards and notes
-- ✅ Topic taxonomies across domains
-- ✅ Git + GitHub integration
-- 🛠️ Work-in-progress: interactive canvas maps, plugin setups, learning quests
-
-Want to contribute? ✨ Jump to [CONTRIBUTING.md](CONTRIBUTING.md)
+- [Obsidian API](https://docs.obsidian.md/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Handlebars](https://handlebarsjs.com/) for template scaffolding
+- ❤️ Curiosity and caffeine
 
 ---
 
-## 🧩 Powered by Obsidian Plugins
+### 🤝 Contributing
 
-This vault is built to be modular and plugin-enhanced. Key systems powered by:
-
-- Dataview
-- Templater
-- Canvas
-- BRAT
-- Tracker
-- Commander
-- Obsidian Git
-- Advanced Tables
-- and more coming!
-
-Full plugin config lives in [`System/Plugins/`](System/Plugins/)
+Contributions welcome! Check out [`CONTRIBUTING.md`](./CONTRIBUTING.md) to learn more.
 
 ---
 
-## 💬 Community & Maintenance
+### 🧪 Status
 
-- **🤝 Contributing** — Learn how to contribute or support.
-- **📜 Code of Conduct** — Expectations for interactions.
-- **🛡️ Security Policy** — How to report security issues.
+This is an alpha kernel release of VaultOS. Expect improvements to:
+- Configuration parsing
+- UI panel features
+- Plugin lifecycle automation
 
----
-
-## ☕ Support
-
-If you enjoy this project or want to encourage its growth:
-
-- 🤝 **Offer mentorship** — Advice, feedback, and support are warmly welcomed.
-- ☕ **[Buy me a coffee](https://buymeacoffee.com/pticalindop)** — Fuel more creativity and vault evolution!
-
-Every small gesture helps this playground grow. Thank you! 🌱
+> Built by [@PtiCalin](https://github.com/PtiCalin) · Join the [Discord](https://discord.gg/dX8ZPDrN)
 
 ---
 
-## 🌱 Want to Fork or Remix?
-
-Go for it! This vault was made to be cloned, forked, and customized.
-
-If you do, feel free to give credit or link back – or don’t. The knowledge wants to be free 💛
-
----
-
-## 📬 License
-
-- **MIT License** — for code and scripts
-- **CC-BY-4.0** — for original content, templates, and documentation
-
-© 2025 PtiCalin 💛. Built with kindness, caffeine and a lifelong curiosity for systems.
+<p align="center"><i>🌌 A modular engine for a modular mind.</i></p>
