@@ -1,59 +1,48 @@
-# 🛡️ License for the Awesome Test Vault
+# 🧾 VaultOS – MIT License
 
-The Awesome Test Vault includes both software-like components (scripts, metadata logic, automation templates) and creative content (guides, modular systems, written contributions).
+Copyright (c) 2025  
+Created by [PtiCalin](https://github.com/PtiCalin)
 
-To reflect this hybrid nature, the Vault is published under a **dual license model**:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software **without restriction**, including without limitation the rights to:
 
-- 📜 **MIT License** — for all code, scripts, and structured logic  
-- 🌿 **Creative Commons Attribution 4.0 International (CC BY 4.0)** — for written materials, templates, guides, and other content
+- Use  
+- Copy  
+- Modify  
+- Merge  
+- Publish  
+- Distribute  
+- Sublicense  
+- And/or sell copies of the Software
 
----
-
-## 🧪 MIT License (for Code, Logic, and Templates)
-
-```text
-MIT License
-
-Copyright (c) 2025 PtiCalin
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+… and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 ---
 
-## 📚 Creative Commons Attribution 4.0 (for Content)
+## 📌 Conditions
 
-**License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-**Author**: PtiCalin  
-**Year**: 2025
-
-You are free to:
-
-- **Share** — copy and redistribute the material in any medium or format  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially  
-
-Under the following terms:
-
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
-  You may do so in any reasonable manner, but not in a way that suggests endorsement by PtiCalin.
-
-License URL: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+- The above copyright notice and this permission notice shall be included in **all copies or substantial portions** of the Software.  
+- Any **modifications** or forks of VaultOS should clearly indicate changes made and not misrepresent the original author’s work.  
+- This license does **not** grant you trademark rights or use of the VaultOS or PtiCalin brand for derivative projects without consent.
 
 ---
 
-If you're unsure which license applies to a specific file or contribution, feel free to [open an issue](https://github.com/PtiCalin/Awesome-Test-Vault/issues/new/choose) for clarification.
+## 🚫 Warranty Disclaimer
+
+**THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND**, express or implied, including but not limited to:
+
+- Warranties of merchantability  
+- Fitness for a particular purpose  
+- Noninfringement
+
+In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from:
+
+- The use of the software  
+- Misuse  
+- Or dealings in the software
+
+---
+
+VaultOS is built with passion and curiosity, shared in the hopes it helps you build something extraordinary. 🌱  
+If you do something cool with it, let me know!
+
+— [PtiCalin](https://github.com/PtiCalin)
