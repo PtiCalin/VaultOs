@@ -1,83 +1,95 @@
-# 🤝 Contributing to the Awesome Test Vault
+# 🤝 Contributing to VaultOS
 
-Welcome to the Awesome Test Vault! 🎉  
-This living archive is a creative laboratory for learning, experimenting, and building thoughtful knowledge structures — held under the care of **PtiCalin**.
+Welcome to **VaultOS** — the modular operations center and plugin orchestrator for Obsidian.  
+This project is part of the **Awesome Test Vault** ecosystem, developed with ✨ precision, kindness, and wild curiosity by **PtiCalin**.
 
-Whether offering ideas, feedback, encouragement, or mentorship — all forms of presence matter here.
+Whether you're here to contribute code, ideas, workflows, or simply learn from the structure — you're warmly welcomed.
 
 ---
 
 ## 📚 Before Contributing
 
-Please review the [Code of Conduct](./CODE_OF_CONDUCT.md).  
-The Vault is shaped by kindness, curiosity, and structured creativity.
+Please review our [Code of Conduct](./CODE_OF_CONDUCT.md).  
+VaultOS grows best in a space shaped by clarity, consent, and calm collaboration.
 
 ---
 
 ## 🛠️ Ways to Contribute
 
-Contributions are always welcome — from minor nudges to major additions.  
-Here are some common forms of participation:
+VaultOS is engineered for extensibility. You can contribute by:
 
-- ✍️ **New Content** – Add templates, notes, workflows, or systems  
-- 🌟 **Feature Requests** – Propose new modules or tools  
-- 🐛 **Bug Reports** – Flag formatting, logic, or structure issues  
-- 🛠️ **Refactors** – Improve naming, metadata, or folder flow  
-- 💡 **Idea Seeds** – Share sparks of inspiration, even half-formed  
+- 🧩 **Creating a Subplugin** – Propose or build a `vaultos_` prefixed module  
+- 🪄 **Enhancing Core Scripts** – Improve the logger, scaffolder, watcher, or compiler logic  
+- 🧪 **Refining Templates** – Upgrade or add templates used for subplugin scaffolding  
+- 🐛 **Reporting Bugs** – Help squash bugs in the file ops, watcher, or view systems  
+- ⚙️ **Improving Configs** – Propose changes to `vaultos_config_extended.json` or related logic  
+- 📖 **Writing Docs** – Clarify systems, write walkthroughs, or improve the README & usage guides  
 
-Most contributions begin by [opening a GitHub Issue](https://github.com/PtiCalin/Awesome-Test-Vault/issues/new/choose) using one of the available templates.  
-Pull Requests may open in the future once collaboration expands.
+Start by [opening an Issue](https://github.com/PtiCalin/VaultOS/issues/new/choose) using the appropriate template.  
+We accept direct Pull Requests for smaller improvements — bigger changes are best discussed first.
 
 ---
 
-## 🎯 Best Practices
+## 🧠 Design Principles
 
-To align with the Vault's vision:
+VaultOS is built on a philosophy of:
 
-- Follow established naming and structure conventions when possible  
-- Prioritize clarity, modularity, and intentional design  
-- Leave helpful comments in YAML or metadata to guide future users  
-- Treat all content as iterative — everything begins as a draft 🌱  
-- Respect the Vault’s tone: soft edges, serious ideas  
+- 🧱 **Modularity** — Each subplugin operates independently in a sandboxed scope  
+- 🧠 **Self-documenting Systems** — Code and config should explain themselves  
+- ⚡ **Local-first Automation** — VaultOS empowers creators to run rich operations inside Obsidian  
+- 🛠️ **Structured Chaos** — Let ideas flow, but build with architectural intention  
+- 🌱 **Progressive Enhancement** — Every version improves the core or expands creative potential
 
 ---
 
 ## ✅ Contributor Checklist
 
-Before submitting your contribution, you may want to:
+Before you submit:
 
-- [ ] Review the [Code of Conduct](./CODE_OF_CONDUCT.md)  
-- [ ] Choose the appropriate [Issue Template](https://github.com/PtiCalin/Awesome-Test-Vault/issues/new/choose)  
-- [ ] Add clear metadata or frontmatter (if applicable)  
-- [ ] Explain your idea or change clearly and kindly  
-- [ ] Consider whether your note/module belongs in the Vault, the GitHub repo, or both  
-
----
-
-## 💬 Questions, Experiments, Reflections?
-
-PtiCalin welcomes all forms of creative curiosity.
-
-- Open an [Issue](https://github.com/PtiCalin/Awesome-Test-Vault/issues/new/choose) to brainstorm or request feedback  
-- Leave a private note inside your personal vault — many ideas bloom later  
-- Prototype freely — not everything needs to be polished to be shared
+- [ ] Read the [Code of Conduct](./CODE_OF_CONDUCT.md)  
+- [ ] Use the appropriate [Issue Template](https://github.com/PtiCalin/VaultOS/issues/new/choose)  
+- [ ] Respect folder and file conventions (e.g. `vaultos_` prefix, `src/`, `dist/`, `config/`)  
+- [ ] Add or update TypeScript types as needed  
+- [ ] Include inline comments and markdown documentation where relevant  
+- [ ] Test your changes or additions in a local Obsidian vault  
 
 ---
 
-## ☕ Supporting the Vault
+## 🧪 Developer Setup
 
-If you wish to support the Awesome Test Vault beyond contributions:
+```bash
+git clone https://github.com/PtiCalin/VaultOS.git
+cd VaultOS
+npm install
+npm run dev
+```
 
-- 🤝 Offer mentorship, feedback, or encouragement to others  
-- ☕ [Buy a coffee](https://buymeacoffee.com/pticalindop) to help fuel continued creativity  
-
-Every gesture helps keep the Vault alive and evolving.  
-Thank you for being part of this slow magic. 🌿
+You can now enable VaultOS as a plugin inside Obsidian.  
+Subplugins are scaffolded automatically in `.obsidian/plugins/`.
 
 ---
 
-## 🧡 With Gratitude
+## 💬 Questions or Collaboration Ideas?
 
-Your interest, presence, or participation in the Vault contributes to a space where knowledge can grow with care and intention.
+- Open an [Issue](https://github.com/PtiCalin/VaultOS/issues/new/choose) to ask questions or propose features  
+- Join the discussion on [PtiCalin’s Discord](https://discord.gg/dX8ZPDrN)  
+- Drop feedback or insights in [Discussions](https://github.com/PtiCalin/VaultOS/discussions)
 
-Welcome to the journey. 🚀
+---
+
+## ☕ Support the VaultOS Project
+
+If you’d like to help keep the lights on:
+
+- 🌱 [Buy a Coffee](https://buymeacoffee.com/pticalindop)  
+- 🛠️ Share your VaultOS subplugin experiments  
+- 🌌 Star the project to spread the word  
+
+---
+
+## 🌠 Thank You
+
+Every contribution, comment, or curiosity helps VaultOS evolve into the operating system Obsidian never knew it needed.  
+You’re part of that magic now. 🪐
+
+Welcome to VaultOS.
