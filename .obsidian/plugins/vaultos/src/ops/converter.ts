@@ -1,4 +1,4 @@
-// scr/modules/module-manager/ops/converter.ts
+// src/ops/converter.ts
 
 import * as fs from 'fs';
 import * as path from 'path';

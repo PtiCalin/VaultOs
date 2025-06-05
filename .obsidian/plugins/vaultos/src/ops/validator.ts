@@ -1,4 +1,4 @@
-// scr/modules/module-manager/ops/validator.ts
+// src/ops/validator.ts
 
 import * as fs from 'fs';
 import * as path from 'path';
