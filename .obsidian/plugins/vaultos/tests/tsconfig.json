@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "../",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [],
+    "typeRoots": []
+  },
+  "include": [
+    "../src/ops/validator.ts",
+    "validator.test.ts",
+    "node.d.ts"
+  ]
+}
