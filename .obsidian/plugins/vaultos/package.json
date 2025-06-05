@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "build": "rollup -c && node dist/ops/compilator.js",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "test": "tsc -p tests/tsconfig.json && node --test tests/dist/tests/validator.test.js"
   },
   "devDependencies": {
     "@types/node": "^22.15.28",
