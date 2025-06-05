@@ -9,7 +9,9 @@ import { logModuleAction } from '../logger';
 import { updateModuleCache } from '../cache';
 import * as fs from 'fs';
 
-const MODULES_DIR = "vaultos/scr/modules";
+// Directory containing VaultOS submodules
+// Typo fixed: was "scr" instead of "src"
+const MODULES_DIR = "vaultos/src/modules";
 
 /**
  * Run full build pipeline on a single module
@@ -62,7 +64,13 @@ export function runModuleBuildPipeline(moduleName: string) {
  * Run build pipeline on all existing modules
  */
 export function runFullBuildPipeline() {
-  const modules = fs.readdirSync(path.resolve(MODULES_DIR), { withFileTypes: true })
+  const fullPath = path.resolve(MODULES_DIR);
+  if (!fs.existsSync(fullPath)) {
+    console.warn("❌ Modules directory not found:", fullPath);
+    return;
+  }
+
+  const modules = fs.readdirSync(fullPath, { withFileTypes: true })
     .filter(d => d.isDirectory())
     .map(d => d.name);
 
