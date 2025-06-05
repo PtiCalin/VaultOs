@@ -1,4 +1,4 @@
-// scr/modules/module-manager/ops/compilator.ts
+// src/ops/compilator.ts
 
 import * as fs from 'fs';
 import * as path from 'path';

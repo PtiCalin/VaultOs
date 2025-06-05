@@ -1,4 +1,4 @@
-// scr/modules/module-manager/ops/orchestrator.ts
+// src/core/orchestrator.ts
 
 import * as path from 'path';
 import { validateModuleStructure } from '../ops/validator';

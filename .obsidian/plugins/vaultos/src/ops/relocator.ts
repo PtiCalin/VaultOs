@@ -1,4 +1,4 @@
-// scr/modules/module-manager/ops/relocator.ts
+// src/ops/relocator.ts
 
 import * as fs from 'fs';
 import * as path from 'path';
