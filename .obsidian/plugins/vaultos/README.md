@@ -30,7 +30,7 @@ Each subplugin is self-contained and may include:
 ```txt
 vaultos_myplugin/
 ├── index.ts
-├── wizzard.ts
+├── wizard.ts
 ├── config/
 │   └── config.json
 ├── views.ts
