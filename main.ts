@@ -1,3 +1,4 @@
+// main.ts
 import { Plugin } from "obsidian";
 import { registerWatcher } from "./src/core/watcher";
 import { registerModuleManagerView, VaultOSPanelView, VAULTOS_PANEL_VIEW } from "./src/core/view";
