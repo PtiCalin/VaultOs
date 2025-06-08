@@ -3,8 +3,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { ensureDir } from '../utils/file';
+import config from '../config/config.json';
 
-const LOG_FILE = path.resolve('data/vaultos.log');
+const LOG_FILE = path.resolve(config.paths.logFile || 'data/vaultos.log');
 
 export interface ModuleLogEntry {
   action: string;
