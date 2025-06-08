@@ -5,8 +5,8 @@ import { validateModuleStructure } from '../ops/validator';
 import { convertModuleToJson } from '../ops/converter';
 import { relocateModuleJson } from '../ops/relocator';
 import { compileManifest } from '../ops/compilator';
-import { logModuleAction } from '../logger';
-import { updateModuleCache } from '../cache';
+import { logModuleAction } from './logger';
+import { updateModuleCache } from './cache';
 import * as fs from 'fs';
 
 // Directory containing VaultOS submodules
