@@ -18,7 +18,5 @@
   "keywords": [],
   "author": "Charlie Bouchard",
   "license": "MIT",
-  "dependencies": {
-    "vaultos": "file:"
-  }
+  "dependencies": {}
 }
