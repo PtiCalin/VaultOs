@@ -18,7 +18,7 @@
     "templateDir": "src/templates/",
     "logFile": "data/module-log.jsonl",
     "metadataFile": "data/module-metadata.json",
-    "manifestFile": "vaultos/manifest.json",
+    "manifestFile": "manifest.json",
     "userSettings": "data/user-settings.json"
   },
   "watcher": {

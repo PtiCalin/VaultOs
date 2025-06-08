@@ -11,7 +11,7 @@ import * as fs from 'fs';
 
 // Directory containing VaultOS submodules
 // Typo fixed: was "scr" instead of "src"
-const MODULES_DIR = "vaultos/src/modules";
+const MODULES_DIR = "src/modules";
 
 /**
  * Run full build pipeline on a single module
