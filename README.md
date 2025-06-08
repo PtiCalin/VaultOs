@@ -48,18 +48,23 @@ Whether you're building a single subplugin or orchestrating dozens, VaultOS give
 ### 📦 Getting Started
 
 ```bash
-# 1. Clone this repo inside your Obsidian vault's `plugins` folder
-git clone https://github.com/PtiCalin/vaultos
+# 1. Clone this repository anywhere on your machine
+git clone https://github.com/PtiCalin/vaultos.git
 cd vaultos
 
-# 2. Install dependencies
+# 2. Install dependencies from the repository root
 npm install
 
-# 3. Build plugin
+# 3. Build the plugin
 npm run build
 
-# 4. Reload Obsidian – VaultOS will boot automatically ✨
+# 4. Copy `manifest.json` and `main.js` to your vault's
+#    `.obsidian/plugins/vaultos/` folder
 ```
+
+After copying the built files you can reload Obsidian to use VaultOS.
+To distribute the plugin, package the same files in a GitHub release
+following the [community plugin guidelines](https://docs.obsidian.md/Plugins/Community+plugins/Publishing+plugins).
 
 ---
 
