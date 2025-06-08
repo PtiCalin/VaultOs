@@ -6,5 +6,5 @@
   "description": "Modular plugin orchestrator for VaultOS subplugins",
   "author": "PtiCalin",
   "authorUrl": "https://github.com/PtiCalin",
-  "main": "dist/main.js"
+  "main": "main.js"
 }
