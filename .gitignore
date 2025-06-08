@@ -15,3 +15,6 @@ tests/dist/
 
 # Obsidian plugin archives
 .obsidian/plugins/vaultos.zip
+# Ignore all local plugins, but keep vaultos for local testing
+.obsidian/plugins/*
+!.obsidian/plugins/vaultos/
