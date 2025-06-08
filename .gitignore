@@ -1,3 +1,17 @@
 node_modules/
+# Build output
 dist/
 tests/dist/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+.tmp/
+.temp/
+.DS_Store
+.vscode/
+*~
+
+# Obsidian plugin archives
+.obsidian/plugins/vaultos.zip
