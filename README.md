@@ -32,7 +32,6 @@ Whether you're building a single subplugin or orchestrating dozens, VaultOS give
 ### 📁 Folder Structure
 
 ```
-vaultos/
 ├── main.ts                # The plugin entry point
 ├── src/
 │   ├── core/              # Watcher, logger, cache, UI panel view
@@ -49,12 +48,11 @@ vaultos/
 ### 📦 Getting Started
 
 ```bash
-# 1. Clone this repo into your Obsidian vault plugin folder
-cd .obsidian/plugins
+# 1. Clone this repo inside your Obsidian vault's `plugins` folder
 git clone https://github.com/PtiCalin/vaultos
+cd vaultos
 
 # 2. Install dependencies
-cd vaultos
 npm install
 
 # 3. Build plugin
