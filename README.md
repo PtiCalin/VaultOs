@@ -52,8 +52,9 @@ Whether you're building a single subplugin or orchestrating dozens, VaultOS give
 git clone https://github.com/PtiCalin/vaultos.git
 cd vaultos
 
-# 2. Install dependencies from the repository root
-npm install
+# 2. Install dependencies and run tests
+./setup.sh
+#    Run `ENABLE_NET=1 ./setup.sh` if you need to fetch packages from the internet
 
 # 3. Build the plugin
 npm run build
